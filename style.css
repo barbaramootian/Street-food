@@ -1,10 +1,9 @@
  body{
      background-color: #649549;
  }
- ul li{
+ nav ul li{
     list-style-type: none;
-    margin: 10px;
-    padding: 10px;
+    padding: 20px;
     display: inline;
     text-decoration: none;
 }
