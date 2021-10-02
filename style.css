@@ -110,3 +110,9 @@
     padding-top: 400px;
     color: #EAAB1B;
 }  
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex-direction: row-reverse;
+}
