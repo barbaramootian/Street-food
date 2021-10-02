@@ -125,4 +125,15 @@
 }
 .deals{
     background-color: #C9ECB5;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#hot{
+    color: black;
+}
+#deal{
+    color: #6cb840;
+
 }
