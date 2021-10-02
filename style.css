@@ -112,7 +112,17 @@
 }  
 .menu{
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    flex-direction: row-reverse;
+    justify-content:space-between;
+    margin-left: 50px;
+    margin-right: 50x;
+    background-color: #e7f8de;
+}
+#Explore{
+    color: black;
+}
+#Menu{
+    color: #6cb840;
+}
+.deals{
+    background-color: #C9ECB5;
 }
