@@ -127,10 +127,11 @@
     margin-right: 90px;
     
 }
-#hot-deals{
+#hot-deal{
     color: black;
     display: flex;
     justify-content: center;
+    font-size: 100px;
 }
 #deal{
     color: #6cb840;
@@ -142,7 +143,20 @@
     padding-right: 200px;
 }
 #special{
-    color: #6cb840;   
+    color: #6cb840;  
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(-50px, 50px);
+    width: 100px;
+}
+.pizz{
+   width: 500px;
+   padding-left: 100px;
+   text-align: start;
+   padding-top: 200px; 
+   margin-top: 100px;
+   
 }
  .item-1{
 background-color: white;
