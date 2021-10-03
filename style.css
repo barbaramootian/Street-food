@@ -125,6 +125,7 @@
     justify-content: space-between;
     margin-left: 90px;
     margin-right: 90px;
+    
 }
 #hot-deals{
     color: black;
@@ -157,6 +158,8 @@ padding: 20px;
       margin-left: 100px;
       margin-right: 100px;
       padding: 40px;
+      row-gap: 40px;
+      flex-wrap: wrap;
 }
   .item-content{
      display: flex;
@@ -207,4 +210,11 @@ input[type=submit]{
  }
  .us{
      color: #C9ECB5;
+ }
+ .footer2{
+     padding-left: 200px;
+ }
+ .Footer3{
+    padding-left: 500px; 
+    padding-bottom: 100px;
  }
