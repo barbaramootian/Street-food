@@ -126,11 +126,19 @@
     margin-left: 90px;
     margin-right: 90px;
 }
-#hot{
+#hot-deals{
     color: black;
+    display: flex;
+    justify-content: center;
 }
 #deal{
     color: #6cb840;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 #special{
     color: #6cb840;   
@@ -139,6 +147,7 @@
 background-color: white;
 border-radius: 0px 0px 50px 0px;
 width: 250px;
+height: 180px;
 height: 180px;
 text-align: center;
 padding: 20px;
@@ -162,4 +171,13 @@ padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
     flex-grow: 3;
+}
+.table{
+    background-color: #C9ECB5 ;
+}
+.contact{
+    background-color: #FFD77C;
+    padding:10px;
+ 
+ 
 }
