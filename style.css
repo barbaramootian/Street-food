@@ -110,18 +110,14 @@
     padding-top: 400px;
     color: #EAAB1B;
 }  
-.menu{
-    display: flex;
-    justify-content:space-between;
-    margin-left: 50px;
-    margin-right: 50x;
-    background-color: #e7f8de;
-}
+
 #Explore{
     color: black;
+    text-align: center;
 }
 #Menu{
     color: #6cb840;
+    text-align: center;
 }
 .deals{
     background-color: #C9ECB5;
@@ -135,5 +131,35 @@
 }
 #deal{
     color: #6cb840;
-
+}
+#special{
+    color: #6cb840;   
+}
+ .item-1{
+background-color: white;
+border-radius: 0px 0px 50px 0px;
+width: 250px;
+height: 180px;
+text-align: center;
+padding: 20px;
+}
+  .Explore-Menu{
+      background-color: #EAF3E4;
+      margin-left: 100px;
+      margin-right: 100px;
+      padding: 40px;
+}
+  .item-content{
+     display: flex;
+}
+.item-content img{
+    transform: translate(-100px, 10px);
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-grow: 3;
 }
