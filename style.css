@@ -121,43 +121,46 @@
 }
 .deals{
     background-color: #C9ECB5;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 90px;
-    margin-right: 90px;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    padding: 10px 200px;
     
 }
-#hot-deal{
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-size: 100px;
-}
-#deal{
-    color: #6cb840;
-    margin-left: 150px;
-    margin-right: 150px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-#special{
-    color: #6cb840;  
-    margin-top: 100px;
-    text-align: center;
-    font-size: 30px;
-    transform: translate(-50px, 50px);
-    width: 100px;
-}
-.pizz{
-   width: 500px;
-   padding-left: 100px;
-   text-align: start;
-   padding-top: 200px; 
-   margin-top: 100px;
-   
-}
+    .deals h2{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .deals h2 span{
+        color:#81dd4b ;
+    }
+    #article{
+        display: flex;
+    }
+    .Hot{
+        position: relative;
+        margin-right: 30px;
+        
+    }
+    #amirali{
+        position: absolute;
+        left: 140px;
+        top: 310px;
+        width: 90%;
+    }
+    #combo{
+        padding: 120px 200px;
+       margin-left: 30px;
+    }
+    #combo h1 h3{
+        text-align: left;
+    }
+    #combo  p{
+        text-align: center;
+    }
+    
+
+
+
  .item-1{
 background-color: white;
 border-radius: 0px 0px 50px 0px;
@@ -166,14 +169,15 @@ height: 180px;
 height: 180px;
 text-align: center;
 padding: 20px;
+
 }
   .Explore-Menu{
       background-color: #EAF3E4;
-      margin-left: 100px;
-      margin-right: 100px;
-      padding: 40px;
-      row-gap: 40px;
-      flex-wrap: wrap;
+      /* margin-left: 100px;
+      margin-right: 100px; */
+      /* padding: 40px; */
+      /* row-gap: 40px; */
+      /* flex-wrap: wrap; */
 }
   .item-content{
      display: flex;
@@ -187,39 +191,26 @@ padding: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 100px;
-    padding-right: 100px;
-    flex-grow: 3;
+    padding: 12px 20px;
+    
+    
 }
 .table{
     background-color: #C9ECB5 ;
 }
 .contact{
     background-color: #FFF5DD;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    padding-right: 150px;
-    padding-left: 1000px;
-    /* text-align: center; */
-    margin-right: 10px;
-    margin-left:100px ;
-    overflow-wrap: break-word;
-    inline-size: 500px;
-    justify-content: center;
+    padding: 20px;
+    text-align: center;
 }
 
 input[type=email]{
-    border: none;
     border-radius: 20px;
-    width: 400px;
-    height: 90px;
     padding-left: 20px;
 }
 input[type=submit]{
      color: white;
      font-weight: bold;
-     padding-left: 10px;
-     padding-right: 10px;
      background-color: #6BB946;
  }
  .table{
