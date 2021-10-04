@@ -177,9 +177,11 @@ padding: 20px;
 }
   .item-content{
      display: flex;
+
 }
 .item-content img{
     transform: translate(-100px, 10px);
+    display: flex;
 }
 .items{
     display: flex;
@@ -198,11 +200,12 @@ padding: 20px;
     padding-bottom: 40px;
     padding-right: 150px;
     padding-left: 1000px;
-    text-align: center;
-    margin-right: 100px;
+    /* text-align: center; */
+    margin-right: 10px;
     margin-left:100px ;
     overflow-wrap: break-word;
     inline-size: 500px;
+    justify-content: center;
 }
 
 input[type=email]{
